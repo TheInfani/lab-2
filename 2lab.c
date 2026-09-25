@@ -52,7 +52,7 @@ int main()
     float fl = sinf(variant);
     printf("Мій варійант за журналом %d. Його Sin = %f\n", variant, fl);
 
-
+    
     char name[] = "Ярослав";
     const int NAME_NUMBER = 7;
     const int PI_NUMBER = 3.14;
