@@ -55,10 +55,11 @@ int main()
 
     char name[] = "Ярослав";
     const int NAME_NUMBER = 7;
+    const int PI_NUMBER = 3.14;
 
     printf("%d %d %s\n", group_number, variant_number, name);
 
-    double pi_mnog = variant_number * 3.14;
+    double pi_mnog = variant_number * PI_NUMBER;
     int pi_mnog_prevedene = (int) pi_mnog;
 
     printf("Группа:%d, Варіант:%d, Ім'я:%s,\nДобуток = %f, Конвертований = %d\n", group_number, variant_number, name, pi_mnog, pi_mnog_prevedene);
